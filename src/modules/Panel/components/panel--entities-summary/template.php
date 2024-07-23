@@ -61,7 +61,7 @@ $this->import('
                 <div class="panel--entities-summary__card--header-icon event__background event__color"> <mc-icon name="event"></mc-icon> </div>
                 <div class="panel--entities-summary__card--header-label"> <?= i::_e('Eventos') ?> </div>
             </div>
-            <div class="panel--entities-summary__card--counter">
+            <div class="panel--entities-summary__card--counter panel--entities-summary__card--counter--events">
                 <div class="panel--entities-summary__card--counter-num"> {{events.count}} </div>
                 <div class="panel--entities-summary__card--counter-label"> {{events.title}} </div>
             </div>
