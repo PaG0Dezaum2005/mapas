@@ -67,6 +67,13 @@
                 font-size: size(14);
                 line-height: size(19);
             }
+
+            &--events{
+                text-decoration: underline;
+                text-decoration-thickness: 2px;
+                cursor: pointer;
+                color: #117c83;
+            }
         }
 
         .agent-summary {
